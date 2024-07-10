@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# My Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+My Landing Page es una página web sencilla creada con React. Incluye un sistema de enrutamiento usando `react-router-dom` que permite navegar entre al menos dos vistas secundarias.
 
-## Available Scripts
+## Requisitos
 
-In the project directory, you can run:
+- Node.js (versión 18 recomendada)
+- npm o yarn
 
-### `npm start`
+## Instalación
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Clonar el repositorio**:
+   git clone https://github.com/tu-usuario/my-landing-page.git
+   cd my-landing-page
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **Instalar dependencias**:
+   npm install
 
-### `npm test`
+3. **Instalar `react-router-dom`**:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   npm install react-router-dom
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Uso
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Iniciar la aplicación**:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   npm start
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   La aplicación se iniciará en `http://localhost:3000`.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Estructura del Proyecto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+my-landing-page/
+├── node_modules/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── About.js
+│   │   ├── Contact.js
+│   │   ├── Home.js
+│   │   ├── Navbar.js
+│   ├── App.css
+│   ├── App.js
+│   ├── index.js
+├── package.json
+├── package-lock.json
+└── README.md
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Descripción de Archivos
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **App.js**: Contiene la configuración principal de la aplicación, incluyendo la navegación.
+- **index.js**: Punto de entrada de la aplicación.
+- **About.js**: Componente de la vista "About".
+- **Contact.js**: Componente de la vista "Contact".
+- **Home.js**: Componente de la vista "Home".
+- **Navbar.js**: Componente de la barra de navegación.
+- **App.css**: Contiene los estilos CSS para la aplicación.
+- **package.json**: Contiene las dependencias y scripts del proyecto.
 
-### Code Splitting
+## Contribuir
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. **Fork** el repositorio
+2. **Clonar** tu fork:
 
-### Analyzing the Bundle Size
+   git clone https://github.com/tu-usuario/my-landing-page.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+3. **Crear una rama** para tu feature:
 
-### Making a Progressive Web App
+   git checkout -b mi-nueva-feature
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+4. **Hacer commit** de tus cambios:
 
-### Advanced Configuration
+   git commit -m 'Añadir nueva feature'
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+5. **Hacer push** a la rama:
 
-### Deployment
+   git push origin mi-nueva-feature
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+6. **Crear un Pull Request**
